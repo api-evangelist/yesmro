@@ -1,7 +1,30 @@
 aid: yesmro
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yesmro.png
 name: yesmro
-description: yesmro is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  YESMRO (易买工品), operated by Shanghai Sheti Information Technology Co., Ltd. and
+  founded in April 2016, is a self-operated Chinese B2B e-commerce platform for MRO
+  (maintenance, repair and operations) and factory-automation parts. It carries
+  millions of SKUs across mechanical components, industrial control (PLCs, HMIs,
+  servos, drives), sensors, low-voltage electrical, pneumatics, tools, safety and
+  factory consumables from 800+ brands, targeting the small and medium-sized end
+  factories that make up the long tail of industrial demand. The company runs
+  automated (AGV) warehouses in Shanghai, Hefei and Dongguan and 10+ regional
+  offices, and in 2020 launched an open platform for upstream suppliers. It is
+  backed by Qiming Venture Partners, Matrix Partners China and Sequoia Capital China.
+  This profile was surfaced as a portfolio company of Qiming; no public developer
+  API, open-platform docs, or specification surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/yesmro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- MRO
+- Industrial Supply
+- E-commerce
+- Procurement
+- Factory Automation
+- Industrial Parts
+- B2B
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/yesmro-domain-security.yml
 - type: Website
-  url: https://yesmro.cn
+  url: https://www.yesmro.cn
+- type: Support
+  url: https://www.yesmro.cn/helpcenter
+- type: TermsOfService
+  url: https://www.yesmro.cn/t/agreement
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
