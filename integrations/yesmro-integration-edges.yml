@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/yesmro/integrations
+- https://n8n.io/integrations/yesmro/
+- https://composio.dev/toolkits/yesmro
+- https://monid.ai/tools/yesmro
+checked:
+- https://composio.dev/toolkits/yesmro
+- https://monid.ai/tools/yesmro
+- https://n8n.io/integrations/yesmro/
+- https://zapier.com/apps/yesmro/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
